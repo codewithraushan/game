@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+
+
+<style>
+.good{
+
+height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.7);
+ 
+  overflow-y: hidden;
+  transition: 0.3s;
+  background-image:url("coin.jpeg");
+  background-repeat:none;
+}
+
+#cont {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+  .good a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 56px;
+  color: AQUAMARINE
+
+
+;
+  display: block;
+  transition:  0.3s ;
+}
+.good a:first-child{color:red; opacity:0.6; }
+.good a:nth-child(2){color:blue; opacity:0.8; }
+.good a:nth-child(3){color:orange; opacity:0.8; }
+.good a:nth-child(4){color:purple;opacity:0.8;}
+.good a:hover, .good a:focus {
+  color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .good a {font-size: 20px}
+  .overlay .col {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  
+  }
+#dad{ color:blue;}
+hep{ font-size:80px;
+      color:rgba(153,153,153,0.5);
+      background:red;}
+#g{ background-repeat:no-repeat; }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
+</head>
+<body>
+
+
+
+
+<div id="Home" class="good">
+<a  href=" javascript:void(0)" onclick="closeNav()" class="col">×</a>
+<div id="cont">
+  <a href="vfd.html">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">product</a>
+</div>
+<imgb id="hg"  src="coin.jpeg" id="sap"></img>
+
+</div>
+
+<div>
+<button  style=" border:0px;float:right;margin-right:20px;font-size:70px;font-weight:bolder;cursor:pointer""   onclick= "openNav()" id="dad">=
+</button>
+</div>
+
+<script>
+
+
+
+
+  
+
+function  openNav() {
+  document.getElementById("Home").style.width = "100%";
+}
+function closeNav() {
+  document.getElementById("Home").style.width = "0%";
+
+}
+
+</script>
+
+<div class="hep">welcome to zeeworld</div>
+
+
+
+
+<style> .blue-green-circle { stroke: #00f; stroke-width: 5; fill: #0f0;fill-opacity:0.3; } </style> <svg width="100" height="100" style="border: solid 1px black;"> <circle cx="25" cy="25" r="20" class="blue-green-circle"/> </svg>
+
+
+<style> @-webkit-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } } @-moz-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } } @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } } circle { opacity: 0; -webkit-animation: fadeIn 5s ease-in; -moz-animation: fadeIn 5s ease-in; animation: fadeIn 5s ease-in; -webkit-animation-fill-mode: forwards; -moz-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-animation-iteration-count: infinite; -moz-animation-iteration-count: infinite; animation-iteration-count: infinite; } .one { fill: red; }
+
+
+</body>
+
+
+
+
+
+
+</html>
